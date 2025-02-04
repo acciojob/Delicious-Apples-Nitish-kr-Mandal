@@ -1,1 +1,61 @@
-/* your code here */
+.product{
+	display:flex;
+	background-color:#27e881;
+	margin:0px;
+	padding:0px;
+	justify-content:center;
+}
+.photo-container{
+	background-color:white;
+	margin:20px
+}
+.photo-main{
+	background-color:greenyellow;
+	border-radius:5px;
+}
+.controls{
+	display:flex;
+	padding:10px;
+	color:white;
+	justify-content:space-between
+}
+.photo-album{
+	margin:0px
+}
+.photo-album ul{
+	display:flex;
+	background-color:white;
+}
+.photo-album ul li{
+	list-style:none;
+	border:1px solid gray;
+	margin:1px;
+	border-radius:5px
+}
+.product__info{
+	background-color:white;
+	padding:10px
+}
+.price{
+	padding:10px;
+	font-size:40px;
+	color:red
+}
+.variant ul{
+	display:flex;
+	list-style:none;
+}
+.variant ul li:first-of-type{
+	border:1px solid gray;
+	border-radius:5px
+}
+.add-to-cart button{
+	background-color:red;
+	padding:10px;
+	color:white;
+	font-weight:600;
+	border:none;
+	border-radius:5px
+}
+
+
